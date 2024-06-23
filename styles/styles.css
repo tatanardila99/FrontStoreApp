@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+        --primario: #b6ccfe;
+        --secundario: #ccdbfd;
+        --tercero: #e2eafc;
+        --blanco: #fff;
+        --negro: #000;
+
+
+        --fuenteprincipal: "Anton", sans-serif;
+
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/* Globales */ 
+
+body{
+    background-color: var(--primario);
+    font-size: 1.rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--negro);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3{
+    color: var(--blanco);
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem ;
+}
+
+h3{
+    font-size: 2.4rem;
+}
